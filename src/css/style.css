@@ -14,6 +14,15 @@
      margin: 0;
  }
 
+ h1 {
+     font-size: 60px;
+     margin-top: 10px;
+ }
+
+ #btnmain {
+     size: 150px;
+ }
+
  body {
     font-family: 'Raleway', sans-serif;
  }
@@ -138,22 +147,24 @@
 .btn .btn-primary .btn-lg {
     margin-top: 3%;
 }
-
+/*
 body {
     margin: 0;
     background-image: linear-gradient(#d16ba5, #e17497, #eb828b, #ee9183, #eda280, #f1ad7d, #f3b97b, #f3c67b, #f8d273, #fbdf6b, #f9ec64, #f4fb5f)
   }
-  
+  */
   main {
     height: 200vmin
   }
   
+  /*
   h1 {
     color: white;
     font-family: system-ui, sans-serif;
     font-size: 48px;
     text-align: center
   }
+  */
   
   footer {
     display: flex;
@@ -165,7 +176,7 @@ body {
   
   body {
     margin: 0;
-    background-image: linear-gradient(#f81111, #f81111, #5bdcf3, #3022f3)
+    background-image: linear-gradient(#111, #8f8f8f, #919191, #cccccc, #ffffff)
   }
   
 /* **************************************************************************************************************************************** */
