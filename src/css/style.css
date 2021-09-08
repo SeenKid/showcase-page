@@ -1,0 +1,174 @@
+@charset "UF-8";
+
+ /*   font-family: 'Raleway', sans-serif; 
+
+ @font-face {
+     font-family: 'raleway';
+     src: 'font/raleway.ttf';
+ }
+ */ 
+
+ /* 
+ --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  */
+
+
+/* MAIN */ 
+ body, html {
+     padding: 0;
+     margin: 0;
+ }
+
+ body {
+    font-family: 'Raleway', sans-serif;
+ }
+
+ a, a:hover {
+     text-decoration: none;
+ }
+
+.container-fluid {
+    padding: 0;
+}
+
+.separator {
+    height: 3px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: #6c757d;
+}
+
+.aproposdemoi {
+    text-align: center;
+}
+
+/* HEADER */ 
+.header {
+    background-color: #4eb0e9;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    color:#ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: #ff4500;
+}
+
+/* BANNER */ 
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.inner-banner h2 {
+    color:crimson;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+/* about */
+#about {
+    text-align: center;
+}
+
+.about article h2 {
+    text-align: center;
+} 
+
+.about article {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+/* PORTFOLIO 
+.portfolio {
+    background-color: #eeeeee;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.portfolio .item-folio {
+    height: 40px;
+    background-color: darkkhaki;
+}
+
+*/ 
+
+/* CONTACT & FOOTER */ 
+
+.footer {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 50px;
+}
+
+.btn .btn-primary .btn-lg {
+    margin-top: 3%;
+}
