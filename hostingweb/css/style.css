@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(#d16ba5, #e17497, #eb828b, #ee9183, #eda280, #f1ad7d, #f3b97b, #f3c67b, #f8d273, #fbdf6b, #f9ec64, #f4fb5f)
+  }
+
+#logo {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+mark {
+    color: orange;
+    background-image: linear-gradient(#d16ba5, #e17497)
+}
+
+nav {
+    list-style-type: none;
+}
+
+.menu {
+    float: right;   
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: #ff4500;
+}
+
+#titre {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.titre {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*
+.separator {
+    background-color: #fff;
+}
+*/
+
+.offres {
+    height: 190px;
+}
+
+.titre h1 {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.mid {
+    text-align: center;
+    margin-top: 20px;
+}
